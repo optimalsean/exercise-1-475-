@@ -2,7 +2,7 @@ var login = require('./login');
 var signup = require('./signup');
 var facebook = require('./facebook');
 var linkedin = require('./linkedin');
-var User = require('../model/User');
+var User = require('../models/user');
 
 module.exports = function(passport){
 

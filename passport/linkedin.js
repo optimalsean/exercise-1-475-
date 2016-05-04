@@ -1,5 +1,5 @@
 var LinkedinStrategy = require('passport-linkedin').Strategy;
-var User = require('../model/User');
+var User = require('../models/user');
 var lkConfig = require('../linkd.js');
 
 module.exports = function(passport) {
